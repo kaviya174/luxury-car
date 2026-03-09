@@ -1,0 +1,213 @@
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.explore-section {
+  background: #f8f9fa;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.explore-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.explore-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+
+.explore-brand-img {
+  width: 180px;
+  height: 140px;
+  object-fit: contain;
+}
+
+.brand-cars-section {
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.car-list-card {
+  background: white;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.brand-car-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.car-details-section {
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.details-carousel {
+  position: relative;
+}
+
+.details-main-image {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.details-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  border: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: 12px;
+}
+
+.right-arrow {
+  right: 12px;
+}
+
+.thumbnail-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.thumb-image {
+  width: 80px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.active-thumb {
+  border: 2px solid #000;
+}
+
+.booking-form-box {
+  background: white;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.about-section {
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.about-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.about-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.about-text-box {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.about-text-box h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-text-box p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 12px;
+} */
