@@ -5,7 +5,7 @@ import showroom from "../assets/images/showroom.png";
 import showrron1 from "../assets/images/showrron1.png";
 import customer from "../assets/images/customer.png";
 import BrandCard from "../components/BrandCard";
-// import BrandLogoSection from "../components/BrandLogoSection";
+
 import bmwLogo from "../assets/brands/bmw.png";
 import audiLogo from "../assets/brands/audi.png";
 import benzLogo from "../assets/brands/benz.png";
@@ -107,7 +107,6 @@ const Home: React.FC = () => {
     <>
       <Navbar />
       <Hero/>
-      {/* <BrandLogoSection /> */}
       <section className="hero-section">
         <div className="container">
          <div className="row align-items-center py-4">
