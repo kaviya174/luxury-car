@@ -29,45 +29,69 @@ const Login: React.FC = () => {
     navigate("/");
   };
 
-  return (
-    <>
-      <Navbar />
+ return (
+  <>
+    <Navbar />
 
-      <section className="auth-section py-5">
-        <div className="container">
-          <div className="auth-box mx-auto">
-            <h2 className="text-center mb-4">Login</h2>
+    <section className="contact-section">
+      <div className="container">
 
-            <form onSubmit={handleSubmit}>
-              <input
-                type="email"
-                name="email"
-                placeholder="Enter Email"
-                className="form-control mb-3"
-                value={formData.email}
-                onChange={handleChange}
-                required
-              />
+        <div className="contact-header text-center">
+          <p className="contact-top-text">LUXURY CAR SHOWROOM</p>
+          <h1 className="contact-title">Login</h1>
+          <p className="contact-subtitle">
+            Login to explore premium cars, book test drives, and contact our showroom team.
+          </p>
+        </div>
 
-              <input
-                type="password"
-                name="password"
-                placeholder="Enter Password"
-                className="form-control mb-3"
-                value={formData.password}
-                onChange={handleChange}
-                required
-              />
+        <div className="row justify-content-center">
+          <div className="col-lg-6">
 
-              <button type="submit" className="btn btn-dark w-100">
-                Login
-              </button>
-            </form>
+            <div className="contact-form-box">
+
+              <form onSubmit={handleSubmit}>
+
+                <div className="mb-3">
+                  <label className="contact-label">Email Address</label>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    className="form-control contact-input"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
+
+                <div className="mb-4">
+                  <label className="contact-label">Password</label>
+                  <input
+                    type="password"
+                    name="password"
+                    placeholder="Enter your password"
+                    className="form-control contact-input"
+                    value={formData.password}
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
+
+                <button type="submit" className="contact-btn">
+                  Login
+                </button>
+
+              </form>
+
+            </div>
+
           </div>
         </div>
-      </section>
-    </>
-  );
+
+      </div>
+    </section>
+  </>
+);
 };
 
 export default Login;

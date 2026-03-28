@@ -1009,3 +1009,268 @@ body{
 .about-section{
 color:white;
 }
+
+.about-section{
+padding:80px 10%;
+background:linear-gradient(to right,#0f2027,#203a43,#2c5364);
+color:white;
+}
+
+.about-title{
+text-align:center;
+font-size:48px;
+font-weight:800;
+margin-bottom:60px;
+text-shadow:0 0 20px rgba(255,255,255,0.4);
+}
+
+.about-row{
+margin-bottom:60px;
+}
+
+.about-img{
+width:100%;
+border-radius:12px;
+box-shadow:0 0 25px rgba(0,0,0,0.7);
+}
+
+.about-text-box h2{
+margin-bottom:15px;
+font-weight:700;
+}
+
+.about-text-box p{
+line-height:1.7;
+opacity:0.9;
+}
+
+.about-features{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:60px;
+flex-wrap:wrap;
+}
+
+.feature-card{
+  background: #111;
+  padding: 25px;
+  border-radius: 12px;
+  width: 230px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.feature-card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 15px rgba(255,255,255,0.4);
+}
+
+.feature-card h3{
+margin-top:10px;
+}
+
+.about-stats{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:80px;
+flex-wrap:wrap;
+}
+
+.stat-card{
+background:#111;
+padding:30px;
+width:200px;
+text-align:center;
+border-radius:12px;
+transition:0.3s;
+}
+
+.stat-card h2{
+font-size:40px;
+color:#ffd700;
+margin-bottom:10px;
+}
+
+.stat-card p{
+font-size:16px;
+color:white;
+}
+
+.stat-card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 15px rgba(255,255,255,0.4);
+}
+.about-stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: #111;
+  padding: 30px;
+  width: 200px;
+  text-align: center;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.stat-card h2 {
+  font-size: 40px;
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  font-size: 16px;
+  color: white;
+}
+
+.stat-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+.contact-section {
+  min-height: 100vh;
+  padding: 80px 0;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.contact-header {
+  margin-bottom: 50px;
+}
+
+.contact-top-text {
+  color: #ffd700;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.contact-title {
+  font-size: 52px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  text-shadow: 0 0 18px rgba(255, 255, 255, 0.25);
+}
+
+.contact-subtitle {
+  max-width: 760px;
+  margin: 0 auto;
+  color: #d7e3ea;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.contact-info-box,
+.contact-form-box {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  border-radius: 22px;
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.contact-box-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.contact-icon {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.contact-info-item h5 {
+  margin-bottom: 6px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.contact-info-item p {
+  margin: 0;
+  color: #d9e6ec;
+  line-height: 1.6;
+}
+
+.contact-mini-card {
+  margin-top: 25px;
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.contact-mini-card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #ffd700;
+}
+
+.contact-mini-card p {
+  margin: 0;
+  color: #d9e6ec;
+  line-height: 1.7;
+}
+
+.contact-label {
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.contact-input,
+.contact-textarea {
+  background: rgba(255, 255, 255, 0.12) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  color: white !important;
+  border-radius: 14px !important;
+  padding: 14px 16px !important;
+  box-shadow: none !important;
+}
+
+.contact-input::placeholder,
+.contact-textarea::placeholder {
+  color: #d2dce2 !important;
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+  border-color: #ffd700 !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.18) !important;
+  background: rgba(255, 255, 255, 0.16) !important;
+}
+
+.contact-btn {
+  background: linear-gradient(to right, #facc15, #ffd700);
+  color: #111;
+  border: none;
+  border-radius: 14px;
+  padding: 14px 28px;
+  font-weight: 700;
+  font-size: 17px;
+  transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 215, 0, 0.25);
+}
